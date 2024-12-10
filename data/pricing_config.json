@@ -1,0 +1,208 @@
+{
+  "ampol": {
+    "planId": "AMP795966MRE2",
+    "periods": {
+      "Nov-Mar": [11, 12, 1, 2, 3],
+      "Jun-Aug": [6, 7, 8],
+      "Apr-May": [4, 5],
+      "Sep-Oct": [9, 10]
+    },
+    "supply_charge": 0.979,
+    "Nov-Mar": {
+      "nickname": "summer",
+      "weekday": {
+        "peak": {
+          "hours": ["14-20"],
+          "rate": 0.506,
+          "solar_rate": 0.07
+        },
+        "shoulder": {
+          "hours": ["7-14", "20-22"],
+          "rate": 0.2618,
+          "solar_rate": 0.07
+        },
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.1815,
+          "solar_rate": 0.07
+        }
+      },
+      "weekend": {
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.1815,
+          "solar_rate": 0.07
+        },
+        "peak": {
+          "hours": ["7-22"],
+          "rate": 0.2618,
+          "solar_rate": 0.07
+        }
+      }
+    },
+    "Jun-Aug": {
+      "nickname": "winter",
+      "weekday": {
+        "peak": {
+          "hours": ["17-21"],
+          "rate": 0.506,
+          "solar_rate": 0.07
+        },
+        "shoulder": {
+          "hours": ["7-17", "21-22"],
+          "rate": 0.2618,
+          "solar_rate": 0.07
+        },
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.1815,
+          "solar_rate": 0.07
+        }
+      },
+      "weekend": {
+        "peak": {
+          "hours": ["7-22"],
+          "rate": 0.2618,
+          "solar_rate": 0.07
+        },
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.1815,
+          "solar_rate": 0.07
+        }
+      }
+    },
+    "Apr-May": {
+      "nickname": "off-season1",
+      "weekday": {
+        "shoulder": {
+          "hours": ["7-22"],
+          "rate": 0.2618,
+          "solar_rate": 0.07
+        },
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.1815,
+          "solar_rate": 0.07
+        }
+      },
+      "weekend": {
+        "shoulder": {
+          "hours": ["7-22"],
+          "rate": 0.2618,
+          "solar_rate": 0.07
+        },
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.1815,
+          "solar_rate": 0.07
+        }
+      }
+    },
+    "Sep-Oct": {
+      "nickname": "off-season2",
+      "weekday": {
+        "shoulder": {
+          "hours": ["7-22"],
+          "rate": 0.2618,
+          "solar_rate": 0.07
+        },
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.1815,
+          "solar_rate": 0.07
+        }
+      },
+      "weekend": {
+        "shoulder": {
+          "hours": ["7-22"],
+          "rate": 0.2618,
+          "solar_rate": 0.07
+        },
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.1815,
+          "solar_rate": 0.07
+        }
+      }
+    }
+  },
+  "agl-value-saver-tou": {
+    "planId": "AGL698033MRE13",
+    "periods": {
+      "Jan-Dec": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "supply_charge": 0.9381,
+    "Jan-Dec": {
+      "nickname": "all-year",
+      "weekday": {
+        "peak": {
+          "hours": ["14-20"],
+          "rate": 0.5218,
+          "solar_rate": 0.05
+        },
+        "shoulder": {
+          "hours": ["7-14", "20-22"],
+          "rate": 0.2907,
+          "solar_rate": 0.05
+        },
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.2382,
+          "solar_rate": 0.05
+        }
+      },
+      "weekend": {
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.2382,
+          "solar_rate": 0.05
+        },
+        "shoulder": {
+          "hours": ["7-22"],
+          "rate": 0.2907,
+          "solar_rate": 0.05
+        }
+      }
+    }
+  },
+  "agl-value-saver-fixed": {
+    "planId": "AGL698042MRE13",
+    "periods": {
+      "Jan-Dec": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "supply_charge": 1.0691,
+    "Jan-Dec": {
+      "nickname": "all-year",
+      "weekday": {
+        "peak": {
+          "hours": ["14-20"],
+          "rate": 0.2255,
+          "solar_rate": 0.05
+        },
+        "shoulder": {
+          "hours": ["7-14", "20-22"],
+          "rate": 0.2255,
+          "solar_rate": 0.05
+        },
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.2255,
+          "solar_rate": 0.05
+        }
+      },
+      "weekend": {
+        "off_peak": {
+          "hours": ["22-7"],
+          "rate": 0.2255,
+          "solar_rate": 0.05
+        },
+        "shoulder": {
+          "hours": ["7-22"],
+          "rate": 0.2255,
+          "solar_rate": 0.05
+        }
+      }
+    }
+  }
+}
